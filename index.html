@@ -15,13 +15,14 @@
   <body>
            <h1 class="weather-app-name">CloudCast</h1>
        <p class="weather-app-tagline">Your reliable weather companion!</p>
-      <div class="weather-app">
-       <main>
+        <div class="weather-app">
         <header>
-         <form class="search-form">
+         <form class="search-form" id="search-form">
           <input type="search" placeholder="Enter a city" required class="search-form-input" />
           <input type="submit" value="search" class="search-form-button" />
-        </form></header>
+        </form>
+      </header>
+      <main>
         <div class="weather-app-data">
           <div>
             <div class="weather-app-city">Kigali</div>
@@ -35,9 +36,8 @@
             <div class="weather-app-icon">🌤️</div>
             <div class="weather-app-temperature">12</div>
             <div class="weather-app-unit">°C</div>
-          </div>
+             </div>
       </main>
-      <div>
       <div>Tomorrow forecast</div>
       <div>Day after forecast</div>
       <div>Third day forecast</div>
@@ -56,5 +56,6 @@
         >
       </footer>
     </div>
+    <script scr="src/index.js"></script>
   </body>
 </html>
