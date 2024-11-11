@@ -46,7 +46,7 @@ main {
 
 .weather-app-data {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .weather-app-city {
